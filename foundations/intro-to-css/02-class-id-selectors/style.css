@@ -1,0 +1,18 @@
+p {
+    background-color: pink;
+}
+
+#special {
+    color: blue;
+    font-size: 36px;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+#more-special {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
