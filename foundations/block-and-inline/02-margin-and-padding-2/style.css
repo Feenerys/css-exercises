@@ -13,7 +13,7 @@ body {
 
 .title, .content,.button-container {
   background: #e3f4ff;
-  margin: 8px 0;
+  margin-top: 8px;
 }
 
 .title {
