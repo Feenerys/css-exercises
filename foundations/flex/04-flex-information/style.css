@@ -1,10 +1,8 @@
 body {
   font-family: 'Courier New', Courier, monospace;
-  display: flex;
+  display: flex;  /* A bit overcomplicated but it works, could've just done text-align: center*/
   flex-direction: column;
-  /* flex-flow: column; */
-  /* align-content: center; */
-  gap: 32px;
+  gap: 32px;  
 }
 
 img {
@@ -38,7 +36,7 @@ img {
   gap: 52px;
 }
 
-.item {
+.item { /* Again, over complicated but works*/
   display: flex;
   flex-direction: column;
   justify-content: center;
