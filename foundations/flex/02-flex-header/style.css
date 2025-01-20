@@ -2,7 +2,9 @@
   font-family: monospace;
   background: papayawhip;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* add the spacing between each of the flex items */
+  align-items: center; 
+  padding: 8px;
 }
 
 .logo {
@@ -11,26 +13,21 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  margin: 10px;
+
 
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
-  display: flex;
-  padding: 0;
-  justify-content: center;
-  align-items: center;
+  display: flex; /* aligns the list item with the main axis */
+  padding: 0; /* ul had initial padding that needed to be removed */
+  gap: 8px; /* add the gap between li */
+  margin: 0;
 }
 
 li {
- margin: 10px;
-}
-
-.left-links, .right-links{
-  display: flex;
-
+ /* margin: 10px; */
 }
 
 a {
