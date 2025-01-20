@@ -3,7 +3,7 @@
   background: papayawhip;
   display: flex;
   justify-content: space-between; /* add the spacing between each of the flex items */
-  align-items: center; 
+  align-items: center; /* makes all flex items aligned with cross axis */
   padding: 8px;
 }
 
