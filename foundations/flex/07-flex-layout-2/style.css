@@ -43,7 +43,7 @@ body {
 .middle {
   flex: 1;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; not sure why i needed this*/
 }
 
 ul {
@@ -66,12 +66,12 @@ a {
   flex-flow: row wrap;
   padding: 48px;
   gap: 32px;
-  align-content: flex-start;
+  /* align-content: flex-start; i only need this if i set a absolute height for the cards*/
 }
 
 .card {
   width: 300px;
-  height: 200px;
-  padding: 8px;
+  /* height: 200px; */
+  padding: 16px;
   font-size: 16px;
 }
