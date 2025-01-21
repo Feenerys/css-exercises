@@ -7,7 +7,7 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   /* align-items: center; */
 }
 
@@ -34,8 +34,8 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 30px;
-  padding: 12px;
+  /* height: 30px; setting a absolute height wasn't needed, just needed to add more padding and let the content increase the size*/   
+  padding: 16px;
 }
 
 .footer {
@@ -43,10 +43,12 @@ input {
 }
 
 .content {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  align-self: center;
+  /* align-self: center; */
   align-items: center;
+  justify-content: center;
   gap: 16px;
 }
 
@@ -55,7 +57,7 @@ ul {
   margin: 0;
   display: flex;
   list-style-type: none;
-  gap: 12px;
+  gap: 16px;
 }
 
 a {
